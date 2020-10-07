@@ -75,7 +75,6 @@ p {
   padding: 0;
   border-top-right-radius: 2%;
   border-top-left-radius: 2%;
-  -webkit-filter: hue-rotate(330deg);
 }
 
 .card {
@@ -93,7 +92,10 @@ p {
 .card:hover {
   cursor: pointer;
   opacity: 1;
-  box-shadow: 1px 1px 25px 0px rgba(46, 61, 73, 0.4);
+  border-radius: 1.6%;
+  box-shadow: 0px 0px 7px 7px #ffffff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(356deg);
 }
 
 .card:last-child {
